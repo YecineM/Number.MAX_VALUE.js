@@ -1,7 +1,7 @@
 let arr=[];
 let max;
 max=Number.MAX_VALUE;
-for (let i=1024;i>0;i--) {
+while (max) {
     arr.push(max%2);
     max=Math.floor(max/2);
 }
